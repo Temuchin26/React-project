@@ -1,6 +1,6 @@
 import {combineReducers} from 'redux';
-import changeTitle from './changeTitle'
+import comment from './postAndCommentReducer';
 
 export default combineReducers({
-    items: changeTitle
+    posts: comment 
 })
